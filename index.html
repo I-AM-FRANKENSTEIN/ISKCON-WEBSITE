@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lord Krishna</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+
+<section id="headers">
+	
+<div class="container">
+	<img src="images\iscon.png" class="logo">
+	<div class="header-text">
+		<h1>Lord Krishna</h1>
+		<span class="squre"></span>
+		<p>
+			Dear Krishna.com visitors and supporters, our prayers are with you and your loved ones right now. May you stay healthy and safe. May you always remember Krishna, especially in times like these. 
+		</p>
+
+<button class="common-btn">Read More</button>
+
+	</div>
+</div>
+
+</section>
+
+<nav id="sideNav">
+	<ul>
+		<li><a href="#headers">Home</a></li>
+		<li><a href="#about">About Us</a></li>
+		<li><a href="#activities">Activities</a></li>
+		<li><a href="#contact">Contact Us</a></li>
+		<li><a href="#about-krishna">About Krishna</a></li>
+		
+
+		
+	</ul>
+</nav>
+
+<img src="images\menu.png" id="menuBtn">
+
+
+
+
+
+
+<!-- <---about----> 
+
+<div id="about">
+	
+	<div class="about-left-col">
+		<img src="images\iscon03.png">
+		
+	</div>
+
+<div class="about-right-col">
+	<h1>What is ISKCON?</h1>
+	<div class="about-isocn">
+
+	<span class="squre"></span>
+
+	<p>The International Society for Krishna Consciousness (ISKCON), otherwise known as the Hare Krishna movement, includes five hundred major centers, temples and rural communities, nearly one hundred affilated vegetarian restaurants, thousands of namahattas or local meeting groups, a wide variety of community projects, and millions of congregational members worldwide. Although less than fifty years on the global stage, ISKCON has expanded widely since its founding by His Divine Grace A. C. Bhaktivedanta Swami Prabhupāda in New York City in 1966.</p>
+	<button class="common-btn">Read More</button>
+	</div>
+	
+</div>
+
+</div>
+
+<!-- activities -->
+
+<section id="activities">
+	<div class="activities-row">
+		<div class="activities-col">
+			<img src="images\education.jpg">
+			<h2>Education</h2>
+			<p>The goal of life according to the Vaishnava, or Krishna conscious, teaching is 
+				to awaken within each soul knowledge of their original spiritual nature, thus bringing the individual to the platform of God consciousness..</p>
+		</div>
+		<div class="activities-col">
+			<img src="images\music.png">
+			<h2>Music-Kirtan</h2>
+			<p>The power of sound is profound and tangible, yet also mystical. The Vedas, the ancient Sanskrit books of spiritual knowledge, prescribe invoking our original blissful spiritual consciousness through the medium of sound.</p>
+		</div>
+		<div class="activities-col">
+			<img src="images\festival.png">
+			<h2>Festival</h2>
+			<p>Festivals are an integral part of ISKCON. With myriad of colourful decorations, multi-course feasts, elaborate rituals, kirtans, dance and dramas, the festivals makes spiritual progress a fun-filled experience.</p>
+		</div>
+	</div>
+	<div class="activities-btn">
+	<button class="common-btn">See all the activities</button>
+</div>
+</section>
+
+
+<!-- about Krishna -->
+
+<section id="about-krishna">
+	
+	<div class="krishna-left-col">
+		<h1>About Krishna</h1>
+
+		<p>
+
+			Krishna is a name of the original, unique Supreme Person, the source of all existence. God has many names, and each describes a different aspect of His personality. Allah, Vishnu, Jehovah, and God refer to His greatness and His role as creator, maintainer of the universe, and Lord of all. The name Krishna—"the all-attractive one"—indicates the unequaled charm and beauty of the Supreme Person, as He appears to His most dear devotees.
+		</p>
+	</div>
+	<div class="krishna-right-col">
+		<img src="images\radhaKrishna.png">
+	</div>
+
+</section>
+
+
+
+<section id="contact">
+
+	<div class="contact-left-col">
+		<img src="images\contact2.jpg">
+	</div>
+
+	<div class="contact-right-col">
+		<div class="contact-form">
+		<form>
+			<h1>Contact Us</h1>
+			<input type="email" name="email" placeholder="Enter Your Email Address" class="email">
+			<input type="text" name="msg" placeholder="Your Message" class="msg">
+			<div class="btn-box">
+				<button class="common-btn">Send Message</button>
+			</div>
+		</form>
+	</div>
+	</div>
+
+</section>
+
+
+<div class="social-icon">
+	
+<img src="images\facebook.png">
+<img src="images\twitter.png">
+<img src="images\instagram.png">
+<img src="images\linkedin.png">
+
+</div>
+
+
+<div class="send-msg">
+	<img src="images\messenger.png">
+</div>
+
+
+
+
+<script>
+	var sideNav = document.getElementById("sideNav");
+	var menuBtn = document.getElementById("menuBtn");
+
+	sideNav.style.right="-250px";
+	menuBtn.onclick=function(){
+		if(sideNav.style.right=="-250px"){
+			sideNav.style.right="0"
+		}
+		else{
+			sideNav.style.right="-250px"
+		}
+	}
+
+
+	var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 2000,
+	speedAsDuration: true
+});
+
+
+</script>
+
+
+
+</body>
+</html>
